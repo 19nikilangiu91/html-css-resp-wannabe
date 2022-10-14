@@ -139,21 +139,31 @@ img {
 
 /* Mobile Version */
 
-/* @media screen and (max-width:480px) {
+@media screen and (min-width:480px) and (max-width:768px){
 
     .container{
-        max-width: 480px;
+        width: 100%;
     }
 
     .row{
         display: block;
+        
     }
 
     .col{
-        margin: 0 auto;
+        margin: 50px auto;
+        width: 100%;
     }
 
-} */
+    .text-center{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: black;
+        padding-top: 50px;
+    }
+}
 
 
     
