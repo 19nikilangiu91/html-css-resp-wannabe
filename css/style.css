@@ -130,7 +130,7 @@ img {
 
  /* Tablet Version */
 
-@media screen and (min-width:769px) and (max-width:1140px){
+ @media screen and (min-width:769px) and (max-width:1140px){
 
     .container{
         width: 100%;
@@ -161,7 +161,8 @@ img {
 
     .why-us{
         background-color: black;
-        padding-top: 50px;
+        padding: 50px;
+        margin-bottom: 0;
     }
 }
 
