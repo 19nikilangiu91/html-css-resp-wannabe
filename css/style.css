@@ -130,11 +130,30 @@ img {
 
  /* Tablet Version */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:769px) and (max-width:1140px){
 
     .container{
-        max-width:768px;
+        width: 100%;
+    }
+}
+
+/* Mobile Version */
+
+/* @media screen and (max-width:480px) {
+
+    .container{
+        max-width: 480px;
     }
 
+    .row{
+        display: block;
+    }
+
+    .col{
+        margin: 0 auto;
+    }
+
+} */
+
+
     
-}
